@@ -34,21 +34,15 @@ Simple Django site
   <img src="https://github.com/EdgardoDev/MyFiles/blob/main/students.png?raw=true" alt="Django Site" height="" width=""/>
 </div>
 
-## :sparkles: Features ##
+## :sparkles: Features used on this project ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
-
-## :rocket: Packages ##
-
-The following packages were used in this project:
-
-- []()
-- []()
-- []()
-- []()
-- []()
+:heavy_check_mark: Working with URL's\
+:heavy_check_mark: Django settings\
+:heavy_check_mark: Working with static and media files\
+:heavy_check_mark: Working with different apps\
+:heavy_check_mark: Working with models\
+:heavy_check_mark: Fetch data from the DB\
+:heavy_check_mark: Pass data to the templates
 
 ## :white_check_mark: Requirements ##
 
