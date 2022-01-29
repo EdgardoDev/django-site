@@ -30,6 +30,10 @@
 
 Simple Django site
 
+<div align="center" id="top"> 
+  <img src="https://github.com/EdgardoDev/MyFiles/blob/main/students.png?raw=true" alt="Django Site" height="" width=""/>
+</div>
+
 ## :sparkles: Features ##
 
 :heavy_check_mark: Feature 1;\

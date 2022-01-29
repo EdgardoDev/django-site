@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
 </head>
 <body>
+  
+
+  
   <div class="container mt-4">
     <h1 class="display-5 text-center mt-5 mb-5">Student List</h1>
     <table class="table table-hover">
@@ -23,23 +26,16 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td colspan="2">Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
+        {% for student in get_students %}
+          <tr>
+            <td>{{ student.student_number }}</td>
+            <td><img src="{{ student.picture.url }}" alt="picture" class="rounded-circle img-thumbnail p-1" width="50px"></td>
+            <td>{{ student.full_name }}</td>
+            <td>{{ student.course_name }}</td>
+            <td>{{ student.grade }}</td>
+            <td>{{ student.gender }}</td>
+          </tr>
+        {% endfor %}
       </tbody>
     </table>
   </div>
